@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
-import App from './App';
+import Wallet from './components/wallet';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Wallet />
   </React.StrictMode>,
   document.getElementById('root')
 );
